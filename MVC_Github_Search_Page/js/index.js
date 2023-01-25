@@ -1,0 +1,1 @@
+//the index file represents the Controller in MVC
