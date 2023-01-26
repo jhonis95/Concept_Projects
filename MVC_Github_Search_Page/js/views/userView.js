@@ -1,7 +1,7 @@
 // this file have the function that will build the new
 // html page when we get the user data
 
-import { elements } from "./base";
+import { elements } from "./base.js";
 /*
     the renderUser function will render the User Profile
     in the element.profile in the DOM 
