@@ -7,3 +7,7 @@ export const elements={
     input: document.querySelector("input"),
     repos: document.querySelector(".repo-list"),
 };
+
+export const clearUI = () => {
+    elements.profile.innerHTML = "";
+  };
