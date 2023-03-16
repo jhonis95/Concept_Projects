@@ -1,0 +1,24 @@
+.profile{
+    border: 3px black solid;
+    border-radius: 10px;
+    margin: 10px;
+    position:relative;
+}
+.profile ul{
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+}
+.profile-header{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.profile-header img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px black solid;
+}
