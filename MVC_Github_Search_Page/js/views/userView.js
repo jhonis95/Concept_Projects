@@ -7,12 +7,14 @@ import { elements } from "./base.js";
     in the element.profile in the DOM 
 */
 export const renderUser=(
-    avatar_url,
-    html_url,
-    public_repos,
-    followers,
-    following,
+    userData
 )=>{
+    let avatar_url=userData.avatar_url;
+    let html_url=userData.html_url;
+    let public_repos=userData.public_repos;
+    let followers=userData.followers;
+    let following=userData.following;
+    
     const markup=`
     <div class="profile-header">
       <img src="${avatar_url}" alt="Avatar">

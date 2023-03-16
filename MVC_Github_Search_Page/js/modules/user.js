@@ -12,7 +12,7 @@ class User{
             const apiUrlStarred=`https://api.github.com/users/${this.user}/starred`;
             const response= await fetch(apiUrl);
             const result= await response.json();
-
+        
             this.avatar_url=result.avatar_url;
             this.followers=result.followers;
             this.following=result.following;

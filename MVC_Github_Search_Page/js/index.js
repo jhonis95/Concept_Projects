@@ -32,8 +32,10 @@ const controlSearch= async (event)=>{
 
         clearUI();
 
-        userView.renderUser(state.user);
+        console.log("state.user is: "+state.user)
 
+        userView.renderUser(state.user);
+        
         await controlFavoriteRepositories(state.user.starred_url);
 
         elements.input.value="";
